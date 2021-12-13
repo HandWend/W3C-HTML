@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>W3C HTML Images</title>
+    </head>
+    <body>
+        <p><img src="img/tiger.jpg" alt="Side face" style="float:right;width: 70px; height: 50px;">
+        This is a Tiger.</p>
+        <pre><img src="img/jaguar.jpg" alt="Blackpanther" style="float:left; width: 70px; height: 50px">
+        This is a Jaguar.
+        this photo is from pixabay.
+        </pre>
+        <img src="img/bridge.jpg" alt="In London">
+        <!-- src: specifies the path to the image
+             alt: specifies an alternate text for the image-->
+        <h2>Image as a Link</h2>
+        <a href="https://www.naver.com">
+            <img src="img/naver.JPG" alt="Naver" style="width: 200px; height:100px;">
+        </a>
+    </body>
+</html>
