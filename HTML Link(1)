@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>W3C HTML Links</title>
+    </head>
+    <style>
+        a {text-decoration: none;
+            margin-bottom:10px;
+            padding: 10px;
+            color: black;
+            font-family: Verdana;}
+    </style>
+    <body>
+        <h1>HTML Links</h1>
+        <hr>
+        <h2>Example 1: "a"</h2>
+        <a href="Paragraphs.html">단락</a>
+        <h2>Example 2: "a" + "target" attribute</h2>
+        <a href="Paragraphs.html" target="_self">단락</a>
+        <a href="Paragraphs.html" target="_blank">단락</a>
+        <a href="Colors.html" target="_parent">색깔</a>
+        <a href="Colors.html" target="_top">색깔</a>
+        <h2>Example 3: Use an image as a link</h2>
+        <a href="https://blog.naver.com/yangicson">
+            <img src="smiling-face.png" alt="HTML a - img Tag" style="width: 20px; height:20px">
+        </a>
+        <h2>Example 4: Link to an Email Address</h2>
+        <a href="mailto:yangicson@naver.com">Send an email</a>
+        <!-- mail to 작성할 것, 아니면 보내지지 않음.-->
+        <h2>Exampe 5: Button as a Link</h2>
+        <button onclick="document.location='default.asp'">W3C HTML Links</button>
+        <!-- 배우지 않은 부분, javascript 배우고 다시 올 것 -->
+        <h2>Example 6: Link Titles</h2>
+        <p>네이버 블로그로 이동시키기</p>
+        <a href="https://blog.naver.com/yangicson" title="Go to Naver Blog">블로그로 이동하기</a>
+        <h2>Example 7: absolute URLs and relative URLs</h2>
+        <p>Use a full URL to link to a page:</p>
+        <a href="https://www.naver.com/">네이버 홈페이지</a>
+        <p>Link to a page located in the html folder on the current web site:</p>
+        <a href="/subfolder/small.html">단락 페이지</a>
+        <p>Link to a page located in the same folder as the current page:</p>
+        <a href="Colors.html">색깔 칠하기 놀이</a>
+    </body>
+</html>
