@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Light on & off the bulb</h1>
+
+        <p>Here, a Javascript changes the value of the src ( source ) attribute of an image.</p>
+        
+        <script>
+            function light(sw) {
+                var pic;
+                if (sw==0) {
+                    pic="img/lightbulb.png"
+                } else {
+                    pic="img/lightbulb (1).png" /* light on/off 를 정하는 요소 sw(n), n으로 구분.*/
+            }   
+            document.getElementById('myImage').src=pic;
+            }
+        </script>
+
+        <img id="myImage" src="img/lightbulb.png" width="100" height="100"> <!-- 첫 화면에 보여질 사진, 꺼져 있는 전구.-->
+
+        <p>
+            <button type="button" onclick="light(1)">Light on</button> <!-- Light on 버튼을 누르면 불이 켜진 전구를 보여준다.-->
+            <button type="button" onclick="light(0)">Light off</button> <!-- Light off 버튼을 누르면 다시 불이 꺼진 전구를 보여준다. -->
+        </p>
+    </body>
+</html>
